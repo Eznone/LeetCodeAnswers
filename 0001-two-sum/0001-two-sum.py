@@ -6,11 +6,11 @@ class Solution(object):
         :rtype: List[int]
         """
         
-        numMap = {}
+        numdict = {}
 
         for i, num in enumerate(nums):
-            remainder = target - num
-            if remainder in numMap:
-                return [i, numMap[remainder]]
-            numMap[num] = i
-            
+            value = target - num
+            if value not in numdict.keys():
+                numdict[num] = i
+            else:
+                return [numdict[value], i]
