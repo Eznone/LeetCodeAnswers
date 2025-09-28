@@ -5,22 +5,23 @@ class Solution(object):
         :type t: str
         :rtype: bool
         """
-        dict_s = {}
-        dict_t = {}
 
-        for char in s:
-            if char not in dict_s:
-                dict_s[char] = 1
-            else: 
-                dict_s[char] += 1
+        sdict = {}
+        tdict = {}
+
+        for letter in s:
+            if letter in sdict:
+                sdict[letter] += 1
+            else:
+                sdict[letter] = 1
         
-        for char in t:
-            if char not in dict_t:
-                dict_t[char] = 1
-            else: 
-                dict_t[char] += 1
+        for letter in t:
+            if letter in tdict:
+                tdict[letter] += 1
+            else:
+                tdict[letter] = 1
         
-        if dict_t == dict_s:
+        if tdict == sdict:
             return True
-        else:
-            return False
+            
+        return False
