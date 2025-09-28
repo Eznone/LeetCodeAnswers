@@ -1,5 +1,3 @@
-from collections import defaultdict
-
 class Solution(object):
     def isValidSudoku(self, board):
         """
@@ -7,24 +5,25 @@ class Solution(object):
         :rtype: bool
         """
 
-        dict_x = defaultdict(list)
-        dict_y = defaultdict(list)
-        dict_box = defaultdict(list)
-        
-        for y, row in enumerate(board):
-            for x, num in enumerate(row):
+        rows = defaultdict(set)
+        columns = defaultdict(set)
+        boxes = defaultdict(set)
 
-                if num == '.':
+        for i in range(9):
+            for j in range(9):
+                if board[i][j] == '.':
                     continue
-
-                if num in dict_x[x] or num in dict_y[y] or num in dict_box[(x//3, y//3)]:
+                
+                if board[i][j] in rows[i] or board[i][j] in columns[j] or board[i][j] in boxes[(i//3, j//3)]:
                     return False
 
-                dict_x[x].append(num)
-                dict_y[y].append(num)
-                dict_box[(x//3, y//3)].append(num)
-
+                rows[i].add(board[i][j])
+                columns[j].add(board[i][j])
+                boxes[(i//3, j//3)].add(board[i][j])
+        
         return True
 
-
+        return True
                 
+
+        
