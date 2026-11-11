@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0049-group-anagrams](https://github.com/Eznone/LeetCodeAnswers/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/Eznone/LeetCodeAnswers/tree/master/0242-valid-anagram) |
+| [1768-merge-strings-alternately](https://github.com/Eznone/LeetCodeAnswers/tree/master/1768-merge-strings-alternately) |
 | [2727-number-of-senior-citizens](https://github.com/Eznone/LeetCodeAnswers/tree/master/2727-number-of-senior-citizens) |
 ## Divide and Conquer
 |  |
@@ -71,4 +72,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/Eznone/LeetCodeAnswers/tree/master/0036-valid-sudoku) |
+## Two Pointers
+|  |
+| ------- |
+| [1768-merge-strings-alternately](https://github.com/Eznone/LeetCodeAnswers/tree/master/1768-merge-strings-alternately) |
 <!---LeetCode Topics End-->
