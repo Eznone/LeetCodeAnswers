@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/Eznone/LeetCodeAnswers/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/Eznone/LeetCodeAnswers/tree/master/0049-group-anagrams) |
+| [0125-valid-palindrome](https://github.com/Eznone/LeetCodeAnswers/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/Eznone/LeetCodeAnswers/tree/master/0242-valid-anagram) |
 | [1768-merge-strings-alternately](https://github.com/Eznone/LeetCodeAnswers/tree/master/1768-merge-strings-alternately) |
 | [2727-number-of-senior-citizens](https://github.com/Eznone/LeetCodeAnswers/tree/master/2727-number-of-senior-citizens) |
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0125-valid-palindrome](https://github.com/Eznone/LeetCodeAnswers/tree/master/0125-valid-palindrome) |
 | [1768-merge-strings-alternately](https://github.com/Eznone/LeetCodeAnswers/tree/master/1768-merge-strings-alternately) |
 ## Stack
 |  |
