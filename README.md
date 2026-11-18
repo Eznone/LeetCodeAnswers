@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/Eznone/LeetCodeAnswers/tree/master/0001-two-sum) |
 | [0036-valid-sudoku](https://github.com/Eznone/LeetCodeAnswers/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/Eznone/LeetCodeAnswers/tree/master/0049-group-anagrams) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/Eznone/LeetCodeAnswers/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0217-contains-duplicate](https://github.com/Eznone/LeetCodeAnswers/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/Eznone/LeetCodeAnswers/tree/master/0238-product-of-array-except-self) |
 | [0347-top-k-frequent-elements](https://github.com/Eznone/LeetCodeAnswers/tree/master/0347-top-k-frequent-elements) |
@@ -78,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/Eznone/LeetCodeAnswers/tree/master/0125-valid-palindrome) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/Eznone/LeetCodeAnswers/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [1768-merge-strings-alternately](https://github.com/Eznone/LeetCodeAnswers/tree/master/1768-merge-strings-alternately) |
 ## Stack
 |  |
@@ -87,4 +89,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/Eznone/LeetCodeAnswers/tree/master/0020-valid-parentheses) |
+## Binary Search
+|  |
+| ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/Eznone/LeetCodeAnswers/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 <!---LeetCode Topics End-->
